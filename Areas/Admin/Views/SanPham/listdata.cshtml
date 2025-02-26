@@ -1,0 +1,80 @@
+﻿@model List<WebHoaQua.Models.SanPham>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Hình ảnh</th>
+            <th>Tên sản phẩm</th>
+            <th>Danh mục</th>
+            <th>Mô tả</th>
+            <th>Giá</th>
+            <th>Số lượng tồn</th>
+            <th data-type="date" data-format="YYYY/DD/MM">Start Date</th>
+            <th>Status</th>
+            <th>Operate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int stt = 1;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@(stt++)</td>
+                <td><img src="@item.HinhAnh" alt="Hình ảnh" style="width: 100px; height: 100px;"></td>
+                <td>@item.TenSp</td>
+                <td>@(item.DanhMucSanPham != null?item.DanhMucSanPham.TenDanhMuc:"")</td>
+                <td>@item.MoTa</td>
+                <td>
+                    @item.Gia.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                </td>
+                <td>
+                    @item.SoLuongTon?.ToString("N0") 
+                </td>
+                <td>@item.CreateDay.ToString("yyyy/MM/dd")</td>
+                <td>
+                    @if (item.TrangThai)
+                    {
+                        <button type="button" class="btn btn-primary" onclick="editStatus(@item.MaSp)">Hoạt động</button>
+                    }
+                    else
+                    {
+                        <button type="button" class="btn btn-danger" onclick="editStatus(@item.MaSp)">Khóa</button>
+                    }
+                </td>
+                <td>
+                    <!-- Nút Sửa -->
+                    <button type="button" class="btn btn-warning text-white mb-3" id="editButton" onclick="LoadModelEdit(@item.MaSp)">
+                        <i class="bi bi-pencil"></i> Sửa
+                    </button>
+                    <!-- Nút Xóa -->
+                    <button type="button" class="btn btn-danger mb-3" id="deleteButton" onclick="deleteData(@item.MaSp)">
+                        <i class="bi bi-trash"></i> Xóa
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<!-- DataTables JS Script -->
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('table').DataTable({
+        "pageLength": 10,  // Số dòng mỗi trang
+        "lengthChange": true, // Không cho phép thay đổi số lượng dòng
+        "searching": true,  // Tắt thanh tìm kiếm
+        "language": {
+          "lengthMenu": "Hiển thị _MENU_ dòng",
+          "info": "Hiển thị từ _START_ đến _END_ trong tổng số _TOTAL_ dòng",
+          "paginate": {
+            "previous": "Trước",
+            "next": "Tiếp"
+          }
+        }
+      });
+    });
+</script>
