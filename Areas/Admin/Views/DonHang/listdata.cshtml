@@ -1,0 +1,68 @@
+﻿@model List<WebHoaQua.Models.DonHang>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>StatusOrder</th>
+            <th>Total</th>
+            <th>Address</th>
+            <th>FullName</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th data-type="date" data-format="YYYY/DD/MM">Start Date</th>
+            <th>Operate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int stt = 1;
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(stt++)</td>
+                    <td>
+                        @Html.DropDownList("status",
+                             new SelectList(Enum.GetValues(typeof(TrangThaiDonHang))
+                             .Cast<TrangThaiDonHang>()
+                             .Select(e => new { Value = EnumHelper.GetDisplayName(e), Text = EnumHelper.GetDisplayName(e) }),
+                             "Value",
+                             "Text",
+                             item.TrangThai),
+                             new { @class = "form-select", onchange = $"editStatus('{item.MaDh}', this.value)" })
+                    </td>
+                    <td>@item.TongTien</td>
+                    <td>@item.DiaChi</td>
+                    <td>@item.HoTen</td>
+                    <td>@item.Sdt</td>
+                    <td>@item.Email</td>
+                    <td>@item.NgayDat?.ToString("yyyy/dd/MM")</td>                  
+                    <td>
+                        <a type="button" class="btn btn-success mb-3" id="viewButton" asp-area="admin"  asp-controller="ChiTietDonHang" asp-action="Index" asp-route-MaDh="@item.MaDh">
+                            <i class="bi bi-eye"></i> Xem
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<!-- DataTables JS Script -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('table').DataTable({
+            "pageLength": 10,  // Số dòng mỗi trang
+            "lengthChange": true, // Không cho phép thay đổi số lượng dòng
+            "searching": true,  // Tắt thanh tìm kiếm
+            "language": {
+                "lengthMenu": "Hiển thị _MENU_ dòng",
+                "info": "Hiển thị từ _START_ đến _END_ trong tổng số _TOTAL_ dòng",
+                "paginate": {
+                    "previous": "Trước",
+                    "next": "Tiếp"
+                }
+            }
+        });
+    });
+</script>

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebHoaQua.Models;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace WebHoaQua.Areas.Admin.Controllers
@@ -13,11 +14,12 @@ namespace WebHoaQua.Areas.Admin.Controllers
         private readonly ShopContext db = new ShopContext();
         private const string KeyCache = "SanPham";
 
+        [Authorize (Roles = "Admin")]
         public ActionResult Index()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<PartialViewResult> ListData()
         {
@@ -35,7 +37,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             }
             return PartialView(listData);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Detail(int? id)
         {
             if (id == null)
@@ -49,14 +51,14 @@ namespace WebHoaQua.Areas.Admin.Controllers
             }
             return PartialView(objData);
         }
-
+        [Authorize(Roles = "Admin")]
         public PartialViewResult Create()
         {
             var lstDanhMuc = db.DanhMucSanPham.ToList();
             ViewData["lstDanhMuc"] = lstDanhMuc;
             return PartialView();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<JsonResult> Create([Bind("MaSP,TenSp,MoTa,Gia,SoLuongTon,HinhAnh,MaDm,TrangThai")] Models.SanPham obj)
         {
@@ -80,7 +82,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             return Json(new { success = true, message = "Thêm mới thành công" });
         }
 
-        
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Edit(int? id)
         {
             if (id == null)
@@ -97,7 +99,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             ViewData["lstDanhMuc"] = lstDanhMuc;
             return PartialView(obj);
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
 
         public async Task<JsonResult> EditPost([Bind("MaSp,TenSp,MoTa,Gia,SoLuongTon,HinhAnh,MaDm,TrangThai")] Models.SanPham obj,int? MaSp)
@@ -145,7 +147,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             return Json(new { success = true, message = "Cập nhật thành công" });
         }
 
-
+        [Authorize(Roles = "Admin")]
         public JsonResult Delete(int? id)
         {
             SanPham obj = null;
@@ -171,7 +173,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             return Json(new { success = true, message = "Bản ghi đã được xóa thành công" });
         }
 
-        
+        [Authorize(Roles = "Admin")]
         public async Task<JsonResult> Status(int? id)
         {
             if (id == null)

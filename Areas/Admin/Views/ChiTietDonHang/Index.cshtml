@@ -1,0 +1,62 @@
+﻿@model WebHoaQua.Models.DonHang
+
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="pagetitle">
+    <h1>Chi tiết đơn hàng</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-area="admin" asp-controller="DashBoard" asp-action="Index">Home</a></li>
+            <li class="breadcrumb-item"><a asp-area="admin" asp-controller="DonHang" asp-action="Index">Đơn hàng</a></li>
+            <li class="breadcrumb-item active">Chi tiết đơn hàng</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="top-row">
+                        @Html.DropDownList("status",
+                                 new SelectList(Enum.GetValues(typeof(TrangThaiDonHang))
+                                 .Cast<TrangThaiDonHang>()
+                                 .Select(e => new { Value = EnumHelper.GetDisplayName(e), Text = EnumHelper.GetDisplayName(e) }),
+                                 "Value",
+                                 "Text",
+                                 Model.TrangThai),
+                                 new { @class = "form-select", onchange = $"editStatus('{Model.MaDh}', this.value)" , style="width: 200px;"})
+                    </div>
+
+                    <!-- Table with stripped rows -->
+                    <div id="listdata">
+
+                    </div>
+
+                    <!-- End Table with stripped rows -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div id="target-div">
+
+</div>
+
+@section Scripts {
+    <script src="~/Admin/js/ChiTetDonHang.js"></script>
+    <script>
+        loaddata(@Model.MaDh);
+    </script>
+}
+
+
+
+

@@ -1,0 +1,123 @@
+﻿@{
+	ViewData["Title"] = "Trái cây";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model WebHoaQua.Models.SanPham
+@{
+	var lstpro = ViewData["lstpro"] as List<SanPham>;
+}
+
+<!-- khu vực breadcrumb -->
+<div class="breadcrumb-section breadcrumb-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="breadcrumb-text">
+					<p>Xem Thêm Chi Tiết</p>
+					<h1>Sản Phẩm Đơn</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc khu vực breadcrumb -->
+<!-- sản phẩm đơn -->
+<div class="single-product mt-150 mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="single-product-img">
+					<img src="@Model.HinhAnh" alt="Ảnh Dâu">
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="single-product-content">
+					<h3>@Model.TenSp</h3>
+					<p class="single-product-pricing"><span>Giá mỗi Kg</span>  @(Model.Gia.ToString("C0", new System.Globalization.CultureInfo("vi-VN")))</p>
+					<p>
+						@Model.MoTa
+					</p> <!-- Cập nhật mô tả -->
+					<div class="single-product-form">
+
+						<input type="number" value="1" id="quantitysp" min="1">
+
+						<a onclick="AddToCart(@Model.MaSp,$('#quantitysp').val())" class="cart-btn">
+							<i class="fas fa-shopping-cart"></i> Thêm Vào Giỏ
+							Hàng
+						</a>
+						<p><strong>Danh Mục: </strong>@Model.DanhMucSanPham.TenDanhMuc</p>
+					</div>
+					<h4>Chia Sẻ:</h4>
+					<ul class="product-share">
+						<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href=""><i class="fab fa-twitter"></i></a></li>
+						<li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+						<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc sản phẩm đơn -->
+<!-- sản phẩm liên quan -->
+<div class="more-products mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="section-title">
+					<h3><span class="orange-text">Sản Phẩm</span> Liên Quan</h3>
+					<p>
+						Khám phá những sản phẩm tươi ngon khác mà bạn sẽ yêu thích! Tất cả đều được chọn lọc kỹ lưỡng
+						để đảm bảo chất lượng và hương vị tốt nhất.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			@if(lstpro != null){
+			@foreach (var item in lstpro)
+			{
+				<div class="col-lg-4 col-md-6 text-center ">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a asp-controller="TraiCay" asp-action="index" asp-route-MaSp="@item.MaSp"><img class="img-pro" src="@item.HinhAnh" alt=""></a>
+						</div>
+						<h3>@item.TenSp</h3>
+						<p class="product-price"><span>Giá mỗi Kg</span> @item.Gia.ToString("C0", new System.Globalization.CultureInfo("vi-VN")) </p>
+						<a onclick="AddToCart(@item.MaSp)" class="cart-btn"><i class="fas fa-shopping-cart"></i> Thêm Vào Giỏ Hàng</a>
+					</div>
+				</div>
+			}
+			}
+		</div>
+	</div>
+</div>
+<!-- kết thúc sản phẩm liên quan -->
+<!-- logo carousel -->
+<div class="logo-carousel-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="logo-carousel-inner">
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/1.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/2.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/3.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/4.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/5.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end logo carousel -->

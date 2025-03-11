@@ -23,6 +23,8 @@ public partial class ShopContext : DbContext
 
     public virtual DbSet<GioHang> GioHang { get; set; }
 
+    public virtual DbSet<LienHe> LienHe { get; set; }
+
     public virtual DbSet<SanPham> SanPham { get; set; }
 
     public virtual DbSet<User> User { get; set; }
@@ -110,7 +112,6 @@ public partial class ShopContext : DbContext
 
             entity.ToTable("GioHang");
 
-            entity.Property(e => e.MaKh).HasColumnName("MaKH");
             entity.Property(e => e.MaSp).HasColumnName("MaSP");
 
             entity.HasOne(d => d.MaKhNavigation).WithMany(p => p.GioHangs)
@@ -120,6 +121,22 @@ public partial class ShopContext : DbContext
             entity.HasOne(d => d.MaSpNavigation).WithMany(p => p.GioHangs)
                 .HasForeignKey(d => d.MaSp)
                 .HasConstraintName("FK__GioHang__MaSP__4316F928");
+        });
+
+        modelBuilder.Entity<LienHe>(entity =>
+        {
+            entity.HasKey(e => e.MaLh);
+
+            entity.ToTable("LienHe");
+
+            entity.Property(e => e.CreateDay)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.IsRead).HasDefaultValue(false);
+            entity.Property(e => e.Sdt)
+                .HasMaxLength(11)
+                .IsFixedLength()
+                .HasColumnName("SDT");
         });
 
         modelBuilder.Entity<SanPham>(entity =>
@@ -142,7 +159,7 @@ public partial class ShopContext : DbContext
                 .HasColumnName("TenSP");
             entity.Property(e => e.TrangThai).HasDefaultValue(true);
 
-            entity.HasOne(d => d.MaDmNavigation).WithMany(p => p.SanPham)
+            entity.HasOne(d => d.MaDmNavigation).WithMany(p => p.SanPhams)
                 .HasForeignKey(d => d.MaDm)
                 .HasConstraintName("FK__SanPham__MaDM__3F466844");
         });

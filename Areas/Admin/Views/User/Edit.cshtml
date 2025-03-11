@@ -1,11 +1,11 @@
-﻿@model WebHoaQua.Models.SanPham
+﻿@model WebHoaQua.Models.User
 @{
-    var DanhMuc = ViewData["lstDanhMuc"] as List<DanhMucSanPham>;
-    var selectDanhMuc = DanhMuc?.Select(x => new SelectListItem
-            {
-                Text = x.TenDanhMuc,
-                Value = x.MaDm.ToString()
-            }).ToList();
+    var roles = new List<SelectListItem>
+                    {
+                        new SelectListItem { Value = null, Text = "-- Chọn vai trò --" },
+                        new SelectListItem { Value = "Admin", Text = "Admin" },
+                        new SelectListItem { Value = "Custumer", Text = "Custumer" }
+                    };
 }
 
 <div class="modal" id="myModal">
@@ -14,13 +14,13 @@
 
             <!-- Modal Header -->
             <div class="modal-header">
-                <h4 class="modal-title">Thêm</h4>
+                <h4 class="modal-title">Sửa</h4>
                 <button type="button" class="close btn bg-transparent border-0" data-bs-dismiss="modal" onclick="closeModal()">&times;</button>
             </div>
 
             <!-- Modal body -->
             <div class="modal-body">
-                <form asp-area="Admin" asp-controller="SanPham" asp-action="EditPost"
+                <form asp-area="Admin" asp-controller="User" asp-action="EditPost"
                       class="form-horizontal"
                       data-ajax="true"
                       data-ajax-begin="BlockUI()"
@@ -30,63 +30,55 @@
                       id="basicForm"
                       method="post"
                       novalidate="">
-                    <input type="hidden" name="MaSp" value="@Model.MaSp">
+                    <input type="hidden" name="MaUs" value="@Model.MaUs">
                     <div class="form-horizontal">
                         <div class="form-group">
                             <div class="row mb-3">
-                                <label for="TenSp" class="control-label col-md-2 text-right">Tên Sản Phẩm</label>
+                                <label for="HoTen" class="control-label col-md-2 text-right">Họ và tên</label>
                                 <div class="col-md-10">
-                                    <input type="text" class="form-control" name="TenSp" id="TenSp" value="@Model.TenSp">
+                                    <input type="text" class="form-control" name="HoTen" id="HoTen" value="@Model.HoTen">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row mb-3">
-                                <label for="anh" class="control-label col-md-2 text-right">Ảnh sản phẩm</label>
+                                <label for="Email" class="control-label col-md-2 text-right">Email</label>
                                 <div class="col-md-10">
-                                    @Html.Partial("~/Areas/Admin/Views/Shared/UploadFilePage.cshtml", new WebHoaQua.Models.JqueryUploadModel { Name = "HinhAnh", Value = Model.HinhAnh })
+                                    <input type="email" class="form-control" name="Email" id="Email" value="@Model.Email">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row mb-3">
-                                <label for="MoTa" class="control-label col-md-2 text-right">Mô tả</label>
+                                <label for="Sdt" class="control-label col-md-2 text-right">Số điện thoại</label>
                                 <div class="col-md-10">
-                                    <textarea type="text" class="form-control" name="MoTa" id="MoTa" style="height: 100px">@Model.MoTa</textarea>
+                                    <input type="text" class="form-control" name="Sdt" id="Sdt" value="@Model.Sdt">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row mb-3">
-                                <label for="Gia" class="control-label col-md-2 text-right">Giá</label>
+                                <label for="DiaChi" class="control-label col-md-2 text-right">Địa chỉ</label>
                                 <div class="col-md-10">
-                                    <input type="number" class="form-control" name="Gia" id="Gia" min="0" value="@Model.Gia" >
+                                    <input type="text" class="form-control" name="DiaChi" id="DiaChi" value="@Model.DiaChi">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row mb-3">
-                                <label for="SoLuongTon" class="control-label col-md-2 text-right">Số lượng tồn</label>
+                                <label for="Role" class="control-label col-md-2 text-right">Vai trò</label>
                                 <div class="col-md-10">
-                                    <input type="number" class="form-control" name="SoLuongTon" id="SoLuongTon" min="0" value="@Model.SoLuongTon">
+                                    @Html.DropDownListFor(m => m.Role, roles, new { @class = "form-select" })
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="row mb-3">
-                                <label class="control-label col-md-2 text-right">Danh mục</label>
-                                <div class="col-sm-10">
-                                    @Html.DropDownListFor(m => m.MaDm, selectDanhMuc, new { @class = "form-select" })
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="row mb-3">
-                                <label for="status" class="control-label col-md-2 text-right">Status</label>
+                                <label for="status" class="control-label col-md-2 text-right">Trạng thái</label>
                                 <br>
                                 <div class="col-sm-10">
                                     <div class="form-check">
-                                        <input class="form-check-input" id="status" type="checkbox" name="TrangThai" value="true" @(Model.TrangThai?" Checked":"")>
+                                        <input class="form-check-input" id="status" type="checkbox" name="TrangThai" value="true" @(Model.TrangThai?"checked":"")>
                                         <label class="form-check-label" for="status">
                                             Status
                                         </label>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebHoaQua")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d134c8e74c5171dee7149092c00f00e6b77c3cbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dde0f14da42ea15b1f9be9907faf16f32fb300c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebHoaQua")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebHoaQua")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

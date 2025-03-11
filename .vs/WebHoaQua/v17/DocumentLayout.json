@@ -7,24 +7,64 @@
       "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\controllers\\thongbaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\wwwroot\\admin\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:wwwroot\\admin\\js\\user.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\views\\user\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\views\\user\\listdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\controllers\\danhmucsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\controllers\\danhmucsanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\controllers\\thanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:controllers\\thanhtoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\controllers\\cuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:controllers\\cuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:controllers\\lienhecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\views\\thongbao\\thongbaoo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\views\\thongbao\\thongbaoo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\wwwroot\\admin\\js\\thongbao.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:wwwroot\\admin\\js\\thongbao.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|d:\\asp.net core\\webhoaqua\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BC34BDC-4EA4-4DA8-BCA0-8916FCDF1A9F}|WebHoaQua.csproj|solutionrelative:areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,73 +74,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 280,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:23:36.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Create.cshtml",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCEAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-26T08:22:39.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "listdata.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\User\\listdata.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\listdata.cshtml",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\User\\listdata.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\listdata.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-26T07:54:38.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-26T07:54:20.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.js",
-              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\wwwroot\\Admin\\js\\User.js",
-              "RelativeDocumentMoniker": "wwwroot\\Admin\\js\\User.js",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\wwwroot\\Admin\\js\\User.js",
-              "RelativeToolTip": "wwwroot\\Admin\\js\\User.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-26T07:53:53.512Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -109,9 +84,48 @@
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\UserController.cs",
               "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAEIAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAIwLkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T07:51:56.042Z",
+              "WhenOpened": "2025-03-11T09:22:58.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LienHeController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\LienHeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\LienHeController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\LienHeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\LienHeController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwCcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:22:16.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DonHangController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DonHangController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DonHangController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:22:06.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:21:58.075Z",
               "EditorCaption": ""
             },
             {
@@ -119,8 +133,160 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DanhMucSanPhamController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAIwKgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:26:33.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAIwK8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:26:33.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThongBaoController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\ThongBaoController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ThongBaoController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\ThongBaoController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ThongBaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:54:19.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAF8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T09:18:18.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Views\\Account\\login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\login.cshtml",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Views\\Account\\login.cshtml",
+              "RelativeToolTip": "Views\\Account\\login.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwD4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T08:59:04.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThongBaoo.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\ThongBao\\ThongBaoo.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\ThongBao\\ThongBaoo.cshtml",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\ThongBao\\ThongBaoo.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\ThongBao\\ThongBaoo.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T08:37:15.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwD8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:26:33.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThanhToanController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\ThanhToanController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ThanhToanController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\ThanhToanController.cs",
+              "RelativeToolTip": "Controllers\\ThanhToanController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:26:33.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CuaHangController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\CuaHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CuaHangController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\CuaHangController.cs",
+              "RelativeToolTip": "Controllers\\CuaHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:26:33.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LienHeController.cs",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\LienHeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LienHeController.cs",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Controllers\\LienHeController.cs",
+              "RelativeToolTip": "Controllers\\LienHeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:26:33.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T08:19:35.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ThongBao.js",
+              "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\wwwroot\\Admin\\js\\ThongBao.js",
+              "RelativeDocumentMoniker": "wwwroot\\Admin\\js\\ThongBao.js",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\wwwroot\\Admin\\js\\ThongBao.js",
+              "RelativeToolTip": "wwwroot\\Admin\\js\\ThongBao.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-11T08:18:08.075Z",
+              "EditorCaption": ""
             }
           ]
         }

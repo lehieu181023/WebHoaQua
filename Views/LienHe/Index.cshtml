@@ -1,0 +1,103 @@
+﻿@{
+	ViewData["Title"] = "Liên hệ";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- khu vực breadcrumb -->
+<div class="breadcrumb-section breadcrumb-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="breadcrumb-text">
+					<p>Nhận hỗ trợ 24/7</p>
+					<h1>Liên Hệ Với Chúng Tôi</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc khu vực breadcrumb -->
+<!-- khu vực liên hệ -->
+<div class="contact-from-section mt-150 mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 mb-5 mb-lg-0">
+				<div class="form-title">
+					<h2>Bạn có câu hỏi nào không?</h2>
+					<p>
+						Cuộc sống đầy màu sắc và cơ hội, đôi khi ta tìm thấy giá trị quý báu trong những điều bất
+						ngờ.
+					</p>
+				</div>
+                <div id="form_status"></div>
+				<div class="contact-form">
+					<form asp-controller="LienHe" asp-action="SubmitContactForm"
+						  class="form-horizontal"
+						  data-ajax="true"
+						  data-ajax-begin="BlockUI()"
+						  data-ajax-failure="UnBlockUI()"
+						  data-ajax-method="POST"
+						  data-ajax-success="successAction"
+                          id="fruitkha-contact"
+						  method="post"
+						  novalidate="">
+						<p>
+							<input type="text" placeholder="Họ và Tên" name="HoTen" id="name">
+							<input type="email" placeholder="Email" name="Email" id="email">
+						</p>
+						<p>
+							<input type="tel" placeholder="Số Điện Thoại" name="Sdt" id="phone">
+							<input type="text" placeholder="Chủ Đề" name="ChuDe" id="subject">
+						</p>
+						<p>
+							<textarea name="TinNhan" id="message" cols="30" rows="10"
+									  placeholder="Tin Nhắn"></textarea>
+						</p>
+						<input type="hidden" name="token" value="FsWga4&" />
+						<p><input type="submit" value="Gửi"></p>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="contact-form-wrap">
+					<div class="contact-form-box">
+						<h4><i class="fas fa-map"></i> Địa Chỉ Cửa Hàng</h4>
+						<p>32 Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội</p>
+					</div>
+					<div class="contact-form-box">
+						<h4><i class="far fa-clock"></i> Giờ Hoạt Động</h4>
+						<p>TỪ THỨ 2 - THỨ 7: 7 đến 9 PM <br> THỨ 7 - CHỦ NHẬT: 10 đến 8 PM</p>
+					</div>
+					<div class="contact-form-box">
+						<h4><i class="fas fa-address-book"></i> Liên Hệ</h4>
+						<p>Số Điện Thoại: +33999999 <br> Email: tiendat@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc khu vực liên hệ -->
+<!-- khu vực tìm vị trí của chúng tôi -->
+<div class="find-location blue-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<p><i class="fas fa-map-marker-alt"></i> Tìm Vị Trí Của Chúng Tôi</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc khu vực tìm vị trí của chúng tôi -->
+<!-- khu vực bản đồ google -->
+<div class="embed-reponsive-item" style="width: 100%">
+	<iframe width="100%" height="450" frameborder="0"
+			scrolling="no" marginheight="0" marginwidth="0"
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.9047455428386!2d105.7743766751286!3d21.00870598063556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313453540809311f%3A0xdbbfb9c9d9ecec69!2zTeG7hSBUcsOsLCBOYW0gVOG7qyBMacOqbSwgSGFub2ksIFZpZXRuYW0!5e1!3m2!1sen!2s!4v1738815608994!5m2!1sen!2s" href="https://www.gps.ie/">
+		gps systems</a>
+	</iframe>
+</div>
+<!-- kết thúc khu vực bản đồ google -->}
+
+@section scripts{
+	<script src="~/AppJs/LienHe.js"></script>
+}

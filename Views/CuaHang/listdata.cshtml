@@ -1,0 +1,49 @@
+﻿@{
+	var lstpro = ViewData["lstpro"] as List<SanPham>;
+	var lstdmsp = ViewData["lstdmsp"] as List<DanhMucSanPham>;
+    var currentPage = ViewBag.currentPage;
+	var totalPage = ViewBag.totalPage;
+}
+<div class="row">
+	<div class="col-md-12">
+		<div class="product-filters">
+			<ul>
+				<li onclick="loaddata(@currentPage)">Tất Cả</li>
+				@foreach (var item in lstdmsp)
+				{
+					<li onclick="loaddata(1,@item.MaDm)">@item.TenDanhMuc</li>
+				}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row product-lists">
+	@foreach (var item in lstpro)
+	{
+		<div class="col-lg-4 col-md-6 text-center ">
+			<div class="single-product-item">
+				<div class="product-image">
+					<a asp-controller="TraiCay" asp-action="index" asp-route-MaSp="@item.MaSp" ><img class="img-pro" src="@item.HinhAnh" alt=""></a>
+				</div>
+				<h3>@item.TenSp</h3>
+				<p class="product-price"><span>Giá mỗi Kg</span> @item.Gia.ToString("C0", new System.Globalization.CultureInfo("vi-VN")) </p>
+				<a onclick="AddToCart(@item.MaSp)" class="cart-btn"><i class="fas fa-shopping-cart"></i> Thêm Vào Giỏ Hàng</a>
+			</div>
+		</div>
+	}
+
+</div>
+
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<div class="pagination-wrap">
+			<ul>
+                @for (int i = 1; i <= totalPage; i++)
+                {
+					<li><a onclick="loaddata(@i)">@i</a></li>
+                }
+			</ul>
+		</div>
+	</div>
+</div>

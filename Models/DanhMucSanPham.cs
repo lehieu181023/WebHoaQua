@@ -13,5 +13,5 @@ public partial class DanhMucSanPham
 
     public DateTime CreateDay { get; set; }
 
-    public virtual ICollection<SanPham> SanPham { get; set; } = new List<SanPham>();
+    public virtual ICollection<SanPham> SanPhams { get; set; } = new List<SanPham>();
 }

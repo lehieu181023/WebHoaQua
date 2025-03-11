@@ -1,0 +1,52 @@
+﻿@model List<WebHoaQua.Models.LienHe>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>SDT</th>
+            <th>Subject</th>
+            <th>Message</th>
+            <th data-type="date" data-format="YYYY/DD/MM">Create Day</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int stt = 1;
+
+        }
+        @foreach (var item in Model)
+            {
+        <tr>
+            <td>@(stt++)</td>
+            <td>@item.HoTen</td>
+            <td>@item.Email</td>
+            <td>@item.Sdt</td>
+            <td>@item.ChuDe</td>
+            <td>@item.TinNhan</td>
+            <td>@item.CreateDay.ToString("yyyy/dd/MM")</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<!-- DataTables JS Script -->
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('table').DataTable({
+        "pageLength": 10,  // Số dòng mỗi trang
+        "lengthChange": true, // Không cho phép thay đổi số lượng dòng
+        "searching": true,  // Tắt thanh tìm kiếm
+        "language": {
+          "lengthMenu": "Hiển thị _MENU_ dòng",
+          "info": "Hiển thị từ _START_ đến _END_ trong tổng số _TOTAL_ dòng",
+          "paginate": {
+            "previous": "Trước",
+            "next": "Tiếp"
+          }
+        }
+      });
+    });
+</script>

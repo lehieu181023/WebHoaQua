@@ -1,0 +1,34 @@
+﻿@model List<WebHoaQua.Models.TopSaleViewModel>
+
+<div class="col-12">
+    <div class="card top-selling overflow-auto" style="min-height: 18vw;">
+        <div class="card-body">
+            <h5 class="card-title">Top Selling <span></span></h5>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th scope="col">Preview</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Sold</th>
+                        <th scope="col">Revenue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row"><img src="@item.HinhAnh" alt="@item.TenSp"></th>
+                            <td>@item.TenSp</td>
+                            <td>
+                                @item.DonGia.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                            </td>
+                            <td class="fw-bold">@item.SoLuongBan</td>
+                            <td>@item.Revenue.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

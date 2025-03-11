@@ -1,9 +1,11 @@
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\visualchars\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-reboot.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\zh-tw.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\autolink\plugin.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-grid.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\tinymce-5\content.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\et.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\extension\dataTool.js
@@ -15,8 +17,11 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\pagebreak\
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\codesample\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\content.inline.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\jquery.magnific-popup.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\DonHang.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\icons\default\icons.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\AppJs\Account.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\searchreplace\plugin.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.esm.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
@@ -34,6 +39,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i1
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\tr.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\hr.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-grid.min.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\responsive-leyouts.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide-dark\content.inline.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\zh_CN.js
@@ -57,16 +63,20 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-ut
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\fa.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-utilities.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\emoticons\plugin.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\universal\jquery.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\form-validate.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\skin.shadowdom.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\boxicons\css\boxicons.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.core.js.LICENSE.txt
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\pt.json
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.min.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\sk.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\insertdatetime\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\ca.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery\dist\jquery.min.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\animate.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.esm.mjs
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide-dark\skin.shadowdom.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-grid.rtl.css.map
@@ -74,7 +84,10 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery\dist\jquery.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\skin.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\content.inline.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\scss\pages\_404.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\pagescroll\animatescroll.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\extension\dataTool.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-reboot.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\searchreplace\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\pt-br.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
@@ -93,11 +106,13 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\link\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.esm.mjs.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\chart.cjs.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\font-awesome\css\font-awesome.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\kk.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.snow.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\document\content.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\link\plugin.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\models\dom\model.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-reboot.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\writer\content.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\nl.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\zh_TW.js
@@ -112,6 +127,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i1
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\ar.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\content.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\DanhMucSanPham.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\AppJs\GioHang.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\document\content.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\skin.shadowdom.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\da.js
@@ -123,10 +139,12 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.snow.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\visualblocks\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\remixicon\remixicon.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\quickbars\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\id.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.common.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\table\plugin.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\pagescroll\custom.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\tinymce-5\content.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\fullscreen\plugin.js
@@ -136,7 +154,9 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\charmap\pl
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\chunks\helpers.segment.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\codesample\plugin.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\boxicons\css\boxicons.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\main.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-grid.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\dark\content.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\skin.shadowdom.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\chart.js.map
@@ -145,7 +165,9 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\media\plug
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\bg_BG.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\owl.carousel.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\sk.json
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\pagescroll\animatescroll.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\sl.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\pt_PT.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
@@ -170,6 +192,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\con
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\extension\bmap.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\css\style.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\pagescroll\jquery-1.8.3.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\pl.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\skin.js
@@ -179,8 +202,10 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.simple.min
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.esm.min.mjs
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\extension\bmap.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\User.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-reboot.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\license.md
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\AppJs\Layout.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\emoticons\js\emojiimages.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\remixicon\remixicon.glyph.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -188,9 +213,12 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\it.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\apexcharts.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\ca.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\content.inline.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\main.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.js.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\webfonts\fa-brands-400.svg
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.js.LICENSE.txt
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\bower.json
+D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\DashBoard.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap.rtl.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\vi.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap.rtl.min.css
@@ -200,18 +228,21 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\anchor\plu
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\image\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\ru.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\simple-datatables\simple-datatables.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\insertdatetime\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\content.inline.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\de.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.esm.js.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\responsive.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\tinymce.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\tinymce-5-dark\content.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\ko_KR.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\directionality\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\preview\plugin.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide-dark\skin.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.bundle.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\writer\content.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\models\dom\model.min.js
@@ -220,24 +251,30 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\directiona
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\boxicons\fonts\boxicons.svg
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\th.json
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\font-awesome\fonts\FontAwesome.otf
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\ko.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\link\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\fa.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\rs.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\accordion\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\visualblocks\plugin.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\content.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\image\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\font-awesome\fonts\fontawesome-webfont.svg
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\skin.shadowdom.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\he.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap-icons\bootstrap-icons.json
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\webfonts\fa-solid-900.svg
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\es.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\nl.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.bundle.min.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap-icons\bootstrap-icons.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\lists\plugin.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\jquery.isotope-3.0.6.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\skin.shadowdom.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\tinymce.min.js
@@ -249,9 +286,12 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide-dark\content.inline.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\skin.shadowdom.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\et-line-font\et-line-font.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.core.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\content.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\SanPham.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\payMoney.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\save\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\skin.shadowdom.js
@@ -264,14 +304,20 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\charmap\pl
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-reboot.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap.rtl.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\vi.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.bundle.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\advlist\plugin.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\meanmenu.min.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\ChiTetDonHang.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\lists\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\autolink\index.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-grid.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\codesample\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.bundle.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\skin.shadowdom.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\ja.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\jquery.meanmenu.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\ThongBao.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide-dark\content.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\skin.shadowdom.css
@@ -279,13 +325,16 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\apexcharts.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\helpers.cjs.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\se.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\content.inline.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-grid.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\AppJs\LienHe.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\chart.umd.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\code\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-grid.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\preview\index.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\pagescroll\animatescroll.noeasing.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\ua.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\el.js
@@ -294,6 +343,8 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\autolink\p
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\fi.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\nonbreaking\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.bundle.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\sticker.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\themes\silver\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\zh-cn.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\emoticons\js\emojis.min.js
@@ -309,6 +360,8 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\emoticons\
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\lists\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.core.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-utilities.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\all.min.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\preview\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\skin.js
@@ -326,6 +379,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-gr
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\be-latn.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\he_IL.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\jhighlight\jquery.highlight.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide-dark\content.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\id.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\ar.js
@@ -334,32 +388,43 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\wordcount\
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\de.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\chart.umd.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\boxicons\css\transformations.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\css\bootstrap-reboot.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\content.inline.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\chart.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\hr.json
+D:\ASP.NET Core\WebHoaQua\wwwroot\AppJs\ThanhToan.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\da.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\icons\default\icons.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap-icons\bootstrap-icons.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\js\jhighlight\jquery.highlight.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\tr.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\CHANGELOG.md
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\default\content.min.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\LienHe.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\ro.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5-dark\skin.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\index.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\waypoints.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\cs.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\importcss\plugin.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-grid.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery\dist\jquery.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\css\magnific-popup.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\main.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\boxicons\css\animations.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\AppJs\CuaHang.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\en.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\index.html
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\jquery.countdown.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\insertdatetime\plugin.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.esm.min.js.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\webfonts\fa-regular-400.svg
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\img\not-found.svg
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\directionality\plugin.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap.min.css.map
@@ -381,6 +446,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\es.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\extension\dataTool.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\ms.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\media\plugin.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\et-line-font\fonts\et-line.svg
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide\content.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\hy.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\content.inline.min.css
@@ -398,6 +464,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\apexcharts.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\models\dom\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\quill\quill.bubble.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\jquery-1.11.3.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\css\bootstrap-utilities.min.css.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\js\UploadFile.js
@@ -407,6 +474,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\hu_HU.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\document\content.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\plugin.min.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\css\font-awesome\css\font-awesome.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\oxide-dark\content.inline.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\ru.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\echarts\echarts.simple.js
@@ -418,6 +486,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\searchrepl
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\lib\jquery\LICENSE.txt
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\ui\tinymce-5\skin.css
+D:\ASP.NET Core\WebHoaQua\wwwroot\help-documentation\IMD-License.txt
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\advlist\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\tinymce-5-dark\content.min.css
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\pl.json
@@ -425,6 +494,7 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\hi.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\anchor\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\skins\content\default\content.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\bootstrap\js\bootstrap.min.js.map
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\bootstrap\js\bootstrap.bundle.js.map
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\fi.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\help\js\i18n\keynav\pt_BR.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\package.json
@@ -434,8 +504,10 @@ D:\ASP.NET Core\WebHoaQua\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\table\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\apexcharts\locales\cs.json
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\visualchars\index.js
+D:\ASP.NET Core\WebHoaQua\wwwroot\assets\js\owl.carousel.min.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\tinymce\plugins\autosave\index.js
 D:\ASP.NET Core\WebHoaQua\wwwroot\Admin\assets\vendor\chart.js\chunks\helpers.segment.cjs.map
+wwwroot\.gitattributes
 wwwroot\Admin\assets\css\style.css
 wwwroot\Admin\assets\img\apple-touch-icon.png
 wwwroot\Admin\assets\img\card.jpg
@@ -934,12 +1006,189 @@ wwwroot\Admin\assets\vendor\tinymce\themes\silver\theme.min.js
 wwwroot\Admin\assets\vendor\tinymce\tinymce.d.ts
 wwwroot\Admin\assets\vendor\tinymce\tinymce.js
 wwwroot\Admin\assets\vendor\tinymce\tinymce.min.js
+wwwroot\Admin\js\ChiTetDonHang.js
 wwwroot\Admin\js\DanhMucSanPham.js
+wwwroot\Admin\js\DashBoard.js
+wwwroot\Admin\js\DonHang.js
+wwwroot\Admin\js\LienHe.js
 wwwroot\Admin\js\SanPham.js
+wwwroot\Admin\js\ThongBao.js
 wwwroot\Admin\js\UploadFile.js
 wwwroot\Admin\js\User.js
+wwwroot\AppJs\Account.js
+wwwroot\AppJs\CuaHang.js
+wwwroot\AppJs\GioHang.js
+wwwroot\AppJs\Layout.js
+wwwroot\AppJs\LienHe.js
+wwwroot\AppJs\ThanhToan.js
+wwwroot\assets\bootstrap\css\bootstrap.css
+wwwroot\assets\bootstrap\css\bootstrap.css.map
+wwwroot\assets\bootstrap\css\bootstrap.min.css
+wwwroot\assets\bootstrap\css\bootstrap.min.css.map
+wwwroot\assets\bootstrap\css\bootstrap-grid.css
+wwwroot\assets\bootstrap\css\bootstrap-grid.css.map
+wwwroot\assets\bootstrap\css\bootstrap-grid.min.css
+wwwroot\assets\bootstrap\css\bootstrap-grid.min.css.map
+wwwroot\assets\bootstrap\css\bootstrap-reboot.css
+wwwroot\assets\bootstrap\css\bootstrap-reboot.css.map
+wwwroot\assets\bootstrap\css\bootstrap-reboot.min.css
+wwwroot\assets\bootstrap\css\bootstrap-reboot.min.css.map
+wwwroot\assets\bootstrap\js\bootstrap.bundle.js
+wwwroot\assets\bootstrap\js\bootstrap.bundle.js.map
+wwwroot\assets\bootstrap\js\bootstrap.bundle.min.js
+wwwroot\assets\bootstrap\js\bootstrap.bundle.min.js.map
+wwwroot\assets\bootstrap\js\bootstrap.js
+wwwroot\assets\bootstrap\js\bootstrap.js.map
+wwwroot\assets\bootstrap\js\bootstrap.min.js
+wwwroot\assets\bootstrap\js\bootstrap.min.js.map
+wwwroot\assets\css\all.min.css
+wwwroot\assets\css\animate.css
+wwwroot\assets\css\magnific-popup.css
+wwwroot\assets\css\main.css
+wwwroot\assets\css\meanmenu.min.css
+wwwroot\assets\css\owl.carousel.css
+wwwroot\assets\css\payMoney.css
+wwwroot\assets\css\responsive.css
+wwwroot\assets\css\scss\base\_mixins.scss
+wwwroot\assets\css\scss\base\_typography.scss
+wwwroot\assets\css\scss\base\_variables.scss
+wwwroot\assets\css\scss\common\_common.scss
+wwwroot\assets\css\scss\common\_footer.scss
+wwwroot\assets\css\scss\common\_header.scss
+wwwroot\assets\css\scss\common\_hover.scss
+wwwroot\assets\css\scss\main.scss
+wwwroot\assets\css\scss\pages\_404.css
+wwwroot\assets\css\scss\pages\_404.scss
+wwwroot\assets\css\scss\pages\_about.scss
+wwwroot\assets\css\scss\pages\_contact.scss
+wwwroot\assets\css\scss\pages\_shop.scss
+wwwroot\assets\css\scss\prepros-6.config
+wwwroot\assets\css\scss\sections\_about.scss
+wwwroot\assets\css\scss\sections\_cart-banner.scss
+wwwroot\assets\css\scss\sections\_hero.scss
+wwwroot\assets\css\scss\sections\_list.scss
+wwwroot\assets\css\scss\sections\_news.scss
+wwwroot\assets\css\scss\sections\_shop-banner.scss
+wwwroot\assets\css\scss\sections\_testimonials.scss
+wwwroot\assets\img\1.jpg
+wwwroot\assets\img\a.jpg
+wwwroot\assets\img\abt.jpg
+wwwroot\assets\img\avaters\avatar1.jpg
+wwwroot\assets\img\avaters\avatar2.jpg
+wwwroot\assets\img\avaters\avatar3.jpg
+wwwroot\assets\img\avaters\avatar4.jpg
+wwwroot\assets\img\breadcrumb-bg.jpg
+wwwroot\assets\img\company-logos\1.png
+wwwroot\assets\img\company-logos\2.png
+wwwroot\assets\img\company-logos\3.png
+wwwroot\assets\img\company-logos\4.png
+wwwroot\assets\img\company-logos\5.png
+wwwroot\assets\img\dd.jpg
+wwwroot\assets\img\favicon.png
+wwwroot\assets\img\feature-bg.jpg
+wwwroot\assets\img\hero-bg.jpg
+wwwroot\assets\img\hero-bg-2.jpg
+wwwroot\assets\img\hero-bg-3.jpg
+wwwroot\assets\img\homepage-bg-pattern.png
+wwwroot\assets\img\latest-news\news-bg-1.jpg
+wwwroot\assets\img\latest-news\news-bg-2.jpg
+wwwroot\assets\img\latest-news\news-bg-3.jpg
+wwwroot\assets\img\latest-news\news-bg-4.jpg
+wwwroot\assets\img\latest-news\news-bg-5.jpg
+wwwroot\assets\img\latest-news\news-bg-6.jpg
+wwwroot\assets\img\logo.png
+wwwroot\assets\img\products\product-img-1.jpg
+wwwroot\assets\img\products\product-img-2.jpg
+wwwroot\assets\img\products\product-img-3.jpg
+wwwroot\assets\img\products\product-img-4.jpg
+wwwroot\assets\img\products\product-img-5.jpg
+wwwroot\assets\img\products\product-img-6.jpg
+wwwroot\assets\img\team\team-1.jpg
+wwwroot\assets\img\team\team-2.jpg
+wwwroot\assets\img\team\team-3.jpg
+wwwroot\assets\img\team\team-4.jpg
+wwwroot\assets\js\form-validate.js
+wwwroot\assets\js\jquery.countdown.js
+wwwroot\assets\js\jquery.isotope-3.0.6.min.js
+wwwroot\assets\js\jquery.magnific-popup.min.js
+wwwroot\assets\js\jquery.meanmenu.min.js
+wwwroot\assets\js\jquery-1.11.3.min.js
+wwwroot\assets\js\main.js
+wwwroot\assets\js\owl.carousel.min.js
+wwwroot\assets\js\sticker.js
+wwwroot\assets\js\waypoints.js
+wwwroot\assets\webfonts\fa-brands-400.eot
+wwwroot\assets\webfonts\fa-brands-400.eot_
+wwwroot\assets\webfonts\fa-brands-400.svg
+wwwroot\assets\webfonts\fa-brands-400.ttf
+wwwroot\assets\webfonts\fa-brands-400.woff
+wwwroot\assets\webfonts\fa-brands-400.woff2
+wwwroot\assets\webfonts\fa-regular-400.eot
+wwwroot\assets\webfonts\fa-regular-400.eot_
+wwwroot\assets\webfonts\fa-regular-400.svg
+wwwroot\assets\webfonts\fa-regular-400.ttf
+wwwroot\assets\webfonts\fa-regular-400.woff
+wwwroot\assets\webfonts\fa-regular-400.woff2
+wwwroot\assets\webfonts\fa-solid-900.eot
+wwwroot\assets\webfonts\fa-solid-900.eot_
+wwwroot\assets\webfonts\fa-solid-900.svg
+wwwroot\assets\webfonts\fa-solid-900.ttf
+wwwroot\assets\webfonts\fa-solid-900.woff
+wwwroot\assets\webfonts\fa-solid-900.woff2
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\help-documentation\css\et-line-font\et-line-font.css
+wwwroot\help-documentation\css\et-line-font\fonts\et-line.eot
+wwwroot\help-documentation\css\et-line-font\fonts\et-line.svg
+wwwroot\help-documentation\css\et-line-font\fonts\et-line.ttf
+wwwroot\help-documentation\css\et-line-font\fonts\et-line.woff
+wwwroot\help-documentation\css\font-awesome\css\font-awesome.css
+wwwroot\help-documentation\css\font-awesome\css\font-awesome.min.css
+wwwroot\help-documentation\css\font-awesome\fonts\FontAwesome.otf
+wwwroot\help-documentation\css\font-awesome\fonts\fontawesome-webfont.eot
+wwwroot\help-documentation\css\font-awesome\fonts\fontawesome-webfont.svg
+wwwroot\help-documentation\css\font-awesome\fonts\fontawesome-webfont.ttf
+wwwroot\help-documentation\css\font-awesome\fonts\fontawesome-webfont.woff
+wwwroot\help-documentation\css\font-awesome\fonts\fontawesome-webfont.woff2
+wwwroot\help-documentation\css\font-awesome\less\animated.less
+wwwroot\help-documentation\css\font-awesome\less\bordered-pulled.less
+wwwroot\help-documentation\css\font-awesome\less\core.less
+wwwroot\help-documentation\css\font-awesome\less\fixed-width.less
+wwwroot\help-documentation\css\font-awesome\less\font-awesome.less
+wwwroot\help-documentation\css\font-awesome\less\icons.less
+wwwroot\help-documentation\css\font-awesome\less\larger.less
+wwwroot\help-documentation\css\font-awesome\less\list.less
+wwwroot\help-documentation\css\font-awesome\less\mixins.less
+wwwroot\help-documentation\css\font-awesome\less\path.less
+wwwroot\help-documentation\css\font-awesome\less\rotated-flipped.less
+wwwroot\help-documentation\css\font-awesome\less\stacked.less
+wwwroot\help-documentation\css\font-awesome\less\variables.less
+wwwroot\help-documentation\css\font-awesome\scss\_animated.scss
+wwwroot\help-documentation\css\font-awesome\scss\_bordered-pulled.scss
+wwwroot\help-documentation\css\font-awesome\scss\_core.scss
+wwwroot\help-documentation\css\font-awesome\scss\_fixed-width.scss
+wwwroot\help-documentation\css\font-awesome\scss\_icons.scss
+wwwroot\help-documentation\css\font-awesome\scss\_larger.scss
+wwwroot\help-documentation\css\font-awesome\scss\_list.scss
+wwwroot\help-documentation\css\font-awesome\scss\_mixins.scss
+wwwroot\help-documentation\css\font-awesome\scss\_path.scss
+wwwroot\help-documentation\css\font-awesome\scss\_rotated-flipped.scss
+wwwroot\help-documentation\css\font-awesome\scss\_stacked.scss
+wwwroot\help-documentation\css\font-awesome\scss\_variables.scss
+wwwroot\help-documentation\css\font-awesome\scss\font-awesome.scss
+wwwroot\help-documentation\css\main.css
+wwwroot\help-documentation\css\responsive-leyouts.css
+wwwroot\help-documentation\images\favicon.png
+wwwroot\help-documentation\IMD-License.txt
+wwwroot\help-documentation\index.html
+wwwroot\help-documentation\js\jhighlight\jquery.highlight.css
+wwwroot\help-documentation\js\jhighlight\jquery.highlight.js
+wwwroot\help-documentation\js\pagescroll\animatescroll.js
+wwwroot\help-documentation\js\pagescroll\animatescroll.min.js
+wwwroot\help-documentation\js\pagescroll\animatescroll.noeasing.js
+wwwroot\help-documentation\js\pagescroll\custom.css
+wwwroot\help-documentation\js\pagescroll\jquery-1.8.3.min.js
+wwwroot\help-documentation\js\universal\jquery.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -1001,5 +1250,7 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\uploads\image.jpg
+wwwroot\uploads\cay-xoai-thai-lan-hat-lep.jpg
+wwwroot\uploads\OIP (1).jpg
 wwwroot\uploads\OIP.jpg
+wwwroot\uploads\xoai-cat-hoa-loc-thom-ngon-dep-ma-da-cang-bong.jpg

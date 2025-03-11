@@ -1,0 +1,35 @@
+﻿@model WebHoaQua.Models.User
+
+<label for="user-icon-input"><i class="fa-solid fa-user"></i></label>
+<input style="display: none;" type="checkbox" id="user-icon-input">
+
+@if (Model != null)
+{
+    <div class="dropdown-user-info">
+        <div class="dropdown-user-info-name">
+            Tên Tài khoản: @Model.HoTen
+        </div>
+        <div class="dropdown-user-info-email">
+            gmail: @Model.Email
+        </div>
+        @if (Model.Role.Equals("Admin")) {
+            <div class="dropdown-user-info-logout mt-2">
+                <i class="fa-solid fa-circle-user"></i>
+                <a asp-area="admin" asp-controller="DashBoard" asp-action="Index" class="user-info__logout">Admin</a>
+            </div>
+        }
+        <div class="dropdown-user-info-logout">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <a asp-controller="Account" asp-action="logout" class="user-info__logout">Đăng xuất</a>
+        </div>
+    </div>
+}
+else
+{
+    <div class="dropdown-user-info">
+        <div class="dropdown-user-info-login">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <a asp-controller="Account" asp-action="login" class="user-info__login">Đăng nhập</a>
+        </div>
+    </div>
+}

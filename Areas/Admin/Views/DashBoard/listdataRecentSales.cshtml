@@ -1,0 +1,53 @@
+﻿@model List<WebHoaQua.Models.DonHang>
+
+<div class="col-12">
+    <div class="card recent-sales overflow-auto" style="min-height: 18vw;">
+        <div class="card-body">
+            <h5 class="card-title">Recent Sales <span></span></h5>
+            <table class="table table-borderless datatable">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Customer</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">
+                                <a asp-area="admin" asp-controller="ChiTietDonHang" asp-action="Index" asp-route-MaDh="@item.MaDh">#@item.MaDh</a>
+                            </th>
+                            <td>@item.HoTen</td>
+                            <td><address>@item.DiaChi</address></td>
+                            <td>@(item.TongTien?.ToString("C0", new System.Globalization.CultureInfo("vi-VN")))</td>
+                            <td>
+                                @switch (item.TrangThai)
+                                {
+                                    case "Đang xử lý":
+                                        <span class="badge bg-warning">Đang xử lý</span>
+                                        break;
+                                    case "Đang giao":
+                                        <span class="badge bg-primary">Đang giao</span>
+                                        break;
+                                    case "Đã hoàn thành":
+                                        <span class="badge bg-success">Đã hoàn thành</span>
+                                        break;
+                                    case "Đã hủy":
+                                        <span class="badge bg-danger">Đã hủy</span>
+                                        break;
+                                    default:
+                                        <span class="badge bg-secondary">Unknown</span>
+                                        break;
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

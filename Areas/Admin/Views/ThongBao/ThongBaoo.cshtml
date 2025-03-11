@@ -1,0 +1,137 @@
+﻿@{
+    var thongbaoDH = ViewData["thongbaoDH"] as List<WebHoaQua.Models.DonHang>;
+    var thongbaoContact = ViewData["thongbaoLH"] as List<WebHoaQua.Models.LienHe>;
+    var tb = thongbaoDH?.Count ?? 0;
+    var tb1 = thongbaoContact?.Count ?? 0;
+}
+<ul class="d-flex align-items-center">
+    <li class="nav-item d-block d-lg-none">
+        <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+        </a>
+    </li><!-- End Search Icon-->
+    <li class="nav-item dropdown">
+
+        <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">@tb</span>
+        </a><!-- End Notification Icon -->
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+                You have @tb new notifications
+                <a asp-area="admin" asp-controller="DonHang" asp-action="Index"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            @if(thongbaoDH != null){
+            @foreach (var item in thongbaoDH)
+            {
+                var datetimeFromDB = item.NgayDat;
+                var now = DateTime.Now;
+                var past = datetimeFromDB;
+                var diff = now - past;
+                var time = "";
+                if (diff?.Seconds > 0) time = diff?.Seconds + " seconds ago";
+                if (diff?.Minutes > 0) time = diff?.Minutes + " minutes ago";
+                if (diff?.Hours > 0) time = diff?.Hours + " hours ago";
+                if (diff?.Days > 0) time = diff?.Days + " days ago";
+                if (diff?.Days / 30 > 0) time = (diff?.Days / 30) + " months ago";
+                if (diff?.Days / 365 > 0) time = (diff?.Days / 365) + " years ago";
+
+                    <li class="notification-item" onclick="redirectToOrder('@Url.Action("Index", "ChiTietDonHang", new { area = "admin", MaDh = item.MaDh })')">
+                    <i class="bi bi-exclamation-circle text-warning"></i>
+                    <div>
+                        <h4>Order: @item.MaDh</h4>
+                        <p>@item.HoTen</p>
+                        <p>@item.Sdt</p>
+                        <p>@item.DiaChi</p>
+                        <p>Total: @item.TongTien</p>
+                        <p>@time</p>
+                    </div>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+            }
+            }
+            <li class="dropdown-footer">
+                <a asp-area="admin" asp-controller="DonHang" asp-action="Index">Show all notifications</a>
+            </li>
+        </ul><!-- End Notification Dropdown Items -->
+
+    </li><!-- End Notification Nav -->
+
+    <li class="nav-item dropdown">
+
+        <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">@tb1</span>
+        </a><!-- End Messages Icon -->
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+                You have @tb1 new messages
+                <a href="contact.php"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            @if (thongbaoContact != null)
+            {
+            @foreach (var item in thongbaoContact)
+            {
+                var datetimeFromDB = item.CreateDay;
+                var now = DateTime.Now;
+                var past = datetimeFromDB;
+                var diff = now - past;
+                var time = "";
+                if (diff.Seconds > 0) time = diff.Seconds + " seconds ago";
+                if (diff.Minutes > 0) time = diff.Minutes + " minutes ago";
+                if (diff.Hours > 0) time = diff.Hours + " hours ago";
+                if (diff.Days > 0) time = diff.Days + " days ago";
+                if (diff.Days / 30 > 0) time = (diff.Days / 30) + " months ago";
+                if (diff.Days / 365 > 0) time = (diff.Days / 365) + " years ago";
+
+                <li class="message-item">
+                        <a onmouseover="editStatusLH(@item.MaLh)">
+                        <div>
+                            <h4>@item.HoTen</h4>
+                            <p>New message from @item.Email</p>
+                            <h5>@item.ChuDe</h5>
+                            <p>@item.TinNhan</p>
+                            <p>@time</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+            }
+            }
+            <li class="dropdown-footer">
+                <a asp-area="admin" asp-controller="LienHe" asp-action="Index">Show all messages</a>
+            </li>
+        </ul><!-- End Messages Dropdown Items -->
+
+    </li><!-- End Messages Nav -->
+    <li class="nav-item dropdown pe-3">
+
+        <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="~/admin/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Admin</span>
+        </a><!-- End Profile Iamge Icon -->
+
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+                <h6>Admin</h6>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+
+
+        </ul><!-- End Profile Dropdown Items -->
+    </li><!-- End Profile Nav -->
+</ul>

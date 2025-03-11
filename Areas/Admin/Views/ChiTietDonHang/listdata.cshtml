@@ -1,0 +1,51 @@
+﻿@model List<WebHoaQua.Models.ChiTietDonHang>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Img</th>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int stt = 1;
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(stt++)</td>
+                    <td><img src="@item.SanPham.HinhAnh" alt="@item.SanPham.TenSp" width="50px" height="50px"></td>
+                    <td>@item.SanPham.TenSp</td>
+                    <td>@item.SanPham.DanhMucSanPham.TenDanhMuc</td>
+                    <td>@(item.DonGia.ToString("C0", new System.Globalization.CultureInfo("vi-VN")))</td>
+                    <td>@item.SoLuong</td>
+                    <td>@(item.ThanhTien?.ToString("C0", new System.Globalization.CultureInfo("vi-VN")))</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<!-- DataTables JS Script -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('table').DataTable({
+            "pageLength": 10,  // Số dòng mỗi trang
+            "lengthChange": true, // Không cho phép thay đổi số lượng dòng
+            "searching": true,  // Tắt thanh tìm kiếm
+            "language": {
+                "lengthMenu": "Hiển thị _MENU_ dòng",
+                "info": "Hiển thị từ _START_ đến _END_ trong tổng số _TOTAL_ dòng",
+                "paginate": {
+                    "previous": "Trước",
+                    "next": "Tiếp"
+                }
+            }
+        });
+    });
+</script>

@@ -1,0 +1,77 @@
+﻿@{
+	ViewData["Title"] = "Tài khoản";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- breadcrumb-section -->
+<div class="breadcrumb-section breadcrumb-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="breadcrumb-text">
+					<p>ĐĂNG NHẬP</p>
+					<h1>ĐĂNG NHẬP VÀO TÀI KHOẢN</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end breadcrumb section -->
+<!-- begin login -->
+<div class="container__login">
+	<input type="checkbox" id="toggle">
+	<div class="container__login form">
+		<form asp-controller="Account" asp-action="loginAction"
+			  class="form-horizontal"
+			  data-ajax="true"
+			  data-ajax-begin="BlockUI()"
+			  data-ajax-failure="UnBlockUI()"
+			  data-ajax-method="POST"
+			  data-ajax-success="successAction"
+			  id="basicForm"
+			  method="post"
+			  novalidate="">
+			<input type="text" placeholder="Nhập email hoặc số điện thoại của bạn" name="UserName" >
+			<input type="password" placeholder="Nhập mật khâu của bạn" name="PassWord">
+			<input type="submit" class="login_btn" value="Đăng nhập ngay" />
+			<a href="#">Quên mật khẩu?</a>
+		</form>
+		<div class="container__signup">
+			<span class="signup">
+				Chưa có tài khoản?
+				<label for="toggle">Đăng ký ngay</label>
+			</span>
+		</div>
+	</div>
+	<div class="container__registration form">
+		<header>Đăng ký</header>
+		<form asp-controller="Account" asp-action="registration"
+			  class="form-horizontal"
+			  data-ajax="true"
+			  data-ajax-begin="BlockUI()"
+			  data-ajax-failure="UnBlockUI()"
+			  data-ajax-method="POST"
+			  data-ajax-success="successAction"
+			  id="basicForm"
+			  method="post"
+			  novalidate="">
+			<input type="text" name="Email" placeholder="Nhập địa chỉ email của bạn" required>
+			<input type="text" name="Sdt" placeholder="Nhập số điện thoại của bạn" required>
+			<input type="text" name="DiaChi" placeholder="Nhập địa chỉ của bạn" required>
+			<input type="text" name="HoTen" placeholder="Nhập họ tên của bạn" required>
+			<input type="password" name="MatKhau" placeholder="Tạo mật khẩu" required>
+			<input type="password" name="repass" placeholder="Xác nhận lại mật khẩu" required>
+			<input type="submit" class="login_btn" value="Đăng ký">
+		</form>
+		<div class="container__signup">
+			<span class="signup">
+				Đã có tài khoản?
+				<a asp-controller="account" asp-action="login">Đăng nhập ngay</a>
+			</span>
+		</div>
+	</div>
+</div>
+<!-- End of login -->
+
+@section Scripts {
+	<script src="~/AppJs/Account.js"></script>
+}

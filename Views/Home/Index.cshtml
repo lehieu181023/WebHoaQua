@@ -1,8 +1,276 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+	ViewData["Title"] = "Trang chủ";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var lstpro = ViewData["lstpro"] as List<SanPham>;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<style>
+	.img-pro{
+		width: 261px;
+        height: 261px;
+		object-fit: contain;
+	}
+</style>
+<!-- thanh trượt trang chủ -->
+<div class="homepage-slider">
+	<!-- thanh trượt trang chủ đơn -->
+	<div class="single-homepage-slider homepage-bg-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<p class="subtitle">Tươi & Hữu cơ</p>
+							<h1>Trái Cây Theo Mùa Thơm Ngon</h1>
+							<div class="hero-btns">
+								<a href="shop.html" class="boxed-btn">Bộ Sưu Tập Trái Cây</a>
+								<a href="contact.html" class="bordered-btn">Liên Hệ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- thanh trượt trang chủ đơn -->
+	<div class="single-homepage-slider homepage-bg-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 text-center">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<p class="subtitle">Tươi Mỗi Ngày</p>
+							<h1>Bộ Sưu Tập 100% Hữu Cơ</h1>
+							<div class="hero-btns">
+								<a href="shop.html" class="boxed-btn">Thăm Cửa Hàng</a>
+								<a href="contact.html" class="bordered-btn">Liên Hệ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- thanh trượt trang chủ đơn -->
+	<div class="single-homepage-slider homepage-bg-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 text-right">
+					<div class="hero-text">
+						<div class="hero-text-tablecell">
+							<p class="subtitle">Giảm Giá Lớn Đang Diễn Ra!</p>
+							<h1>Nhận Giảm Giá Tháng 12</h1>
+							<div class="hero-btns">
+								<a href="shop.html" class="boxed-btn">Thăm Cửa Hàng</a>
+								<a href="contact.html" class="bordered-btn">Liên Hệ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+<!-- kết thúc thanh trượt trang chủ -->
+<!-- khu vực danh sách tính năng -->
+<div class="list-section pt-80 pb-80">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+				<div class="list-box d-flex align-items-center">
+					<div class="list-icon">
+						<i class="fas fa-shipping-fast"></i>
+					</div>
+					<div class="content">
+						<h3>Miễn Phí Vận Chuyển</h3>
+						<p>Khi đơn hàng trên 75$</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+				<div class="list-box d-flex align-items-center">
+					<div class="list-icon">
+						<i class="fas fa-phone-volume"></i>
+					</div>
+					<div class="content">
+						<h3>Hỗ Trợ 24/7</h3>
+						<p>Nhận hỗ trợ suốt ngày</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="list-box d-flex justify-content-start align-items-center">
+					<div class="list-icon">
+						<i class="fas fa-sync"></i>
+					</div>
+					<div class="content">
+						<h3>Hoàn Tiền</h3>
+						<p>Hoàn tiền trong vòng 3 ngày!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- kết thúc khu vực danh sách tính năng -->
+<!-- khu vực sản phẩm -->
+<div class="product-section mt-150 mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="section-title">
+					<h3><span class="orange-text">Sản Phẩm</span> Của Chúng Tôi</h3>
+					<p>
+						Cuộc sống đầy màu sắc và cơ hội, đôi khi ta tìm thấy giá trị quý báu trong những điều bất
+						ngờ.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			@foreach(var item in lstpro){
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a asp-controller="TraiCay" asp-route-MaSp="@item.MaSp"><img class="img-pro" src="@item.HinhAnh" alt=""></a>
+						</div>
+						<h3>@item.TenSp</h3>
+						<p class="product-price"><span>Giá mỗi Kg</span> @( item.Gia.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))) </p>
+						<a onclick="AddToCart(@item.MaSp)" class="cart-btn"><i class="fas fa-shopping-cart"></i> Thêm Vào Giỏ Hàng</a>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>
+<!-- kết thúc khu vực sản phẩm -->
+<!-- khu vực banner giỏ hàng -->
+<section class="cart-banner pt-100 pb-100">
+	<div class="container">
+		<div class="row clearfix">
+			<!-- Cột Hình Ảnh -->
+			<div class="image-column col-lg-6">
+				<div class="image">
+					<div class="price-box">
+						<div class="inner-price">
+							<span class="price">
+								<strong>30%</strong> <br> giảm mỗi Kg
+							</span>
+						</div>
+					</div>
+					<img src="./assets/img/a.jpg" alt="">
+				</div>
+			</div>
+			<!-- Cột Nội Dung -->
+			<div class="content-column col-lg-6">
+				<h3><span class="orange-text">Ưu Đãi</span> Của Tháng</h3>
+				<h4>Dâu Tây Hikan</h4>
+				<div class="text">
+					Mọi khó khăn đều có thể vượt qua, và ngay cả lỗi lầm cũng mang đến những bài học
+					quý giá. Hãy đón nhận thử thách với tinh thần mạnh mẽ.
+				</div>
+				<!-- Bộ Đếm Thời Gian -->
+				<div class="time-counter">
+					<div class="time-countdown clearfix" data-countdown="2020/2/01">
+						<div class="counter-column">
+							<div class="inner"><span class="count">00</span>Ngày</div>
+						</div>
+						<div class="counter-column">
+							<div class="inner"><span class="count">00</span>Giờ</div>
+						</div>
+						<div class="counter-column">
+							<div class="inner"><span class="count">00</span>Phút</div>
+						</div>
+						<div class="counter-column">
+							<div class="inner"><span class="count">00</span>Giây</div>
+						</div>
+					</div>
+				</div>
+				<a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Thêm Vào Giỏ Hàng</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- kết thúc khu vực banner giỏ hàng -->
+<!-- khu vực quảng cáo -->
+<div class="abt-section mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12">
+				<div class="abt-bg">
+					<a href="https://www.youtube.com/watch?v=J1-Acd0M3S4" class="video-play-btn popup-youtube">
+						<i class="fas fa-play"></i>
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<div class="abt-text">
+					<p class="top-sub">Từ Năm 1999</p>
+					<h2>Chúng tôi là <span class="orange-text">Fruitkha</span></h2>
+					<p>
+						Chúng tôi luôn nỗ lực mang đến những sản phẩm tươi ngon nhất. Với sự tận tâm, chúng tôi đã
+						xây dựng được uy tín qua nhiều năm phục vụ khách hàng.
+					</p>
+					<p>
+						Mọi nỗ lực của chúng tôi đều hướng đến việc mang lại trải nghiệm tốt nhất cho bạn. Hãy đồng
+						hành cùng chúng tôi trong hành trình này.
+					</p>
+					<a asp-controller="GioiThieu" class="boxed-btn mt-4">Tìm hiểu thêm</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc khu vực quảng cáo -->
+<!-- banner cửa hàng -->
+<section class="shop-banner">
+	<div class="container">
+		<h3>Khuyến mãi tháng 12 đã bắt đầu! <br> với <span class="orange-text">Giảm Giá Lớn...</span></h3>
+		<div class="sale-percent"><span>Giảm Giá! <br> Lên đến</span>50% <span>giảm</span></div>
+		<a href="shop.html" class="cart-btn btn-lg">Mua Ngay</a>
+	</div>
+</section>
+<!-- kết thúc banner cửa hàng -->
+<!-- logo carousel -->
+<div class="logo-carousel-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="logo-carousel-inner">
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/1.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/2.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/3.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/4.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/5.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end logo carousel -->
+@section scripts{
+	@if (TempData["ErrorMessage"] != null)
+	{
+		<script>
+			alert(@Html.Raw(Json.Serialize(TempData["ErrorMessage"])));
+		</script>
+	}
+
+}

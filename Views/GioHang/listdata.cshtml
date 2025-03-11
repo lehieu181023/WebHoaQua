@@ -1,0 +1,73 @@
+﻿@model List<WebHoaQua.Models.GioHang>
+<!-- giỏ hàng -->
+<div class="cart-section mt-150 mb-150">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-12">
+				<div class="cart-table-wrap">
+					<table class="cart-table">
+						<thead class="cart-table-head">
+							<tr class="table-head-row">
+								<th class="product-remove"></th>
+								<th class="product-image">Hình Ảnh Sản Phẩm</th>
+								<th class="product-name">Tên</th>
+								<th class="product-price">Giá</th>
+								<th class="product-quantity">Số Lượng</th>
+								<th class="product-total">Tổng Cộng</th>
+							</tr>
+						</thead>
+						<tbody>
+							@if (Model != null || Model.Any())
+							{
+								@foreach (var item in Model)
+								{
+									<tr class="table-body-row">
+										<td class="product-remove"><a onclick="deleteData(@item.MaSp)"><i class="far fa-window-close"></i></a></td>
+										<td class="product-image">
+											<img src="@item.SanPham?.HinhAnh" alt="">
+										</td>
+										<td class="product-name">@item.SanPham.TenSp</td>
+										<td class="product-price">@item.SanPham?.Gia.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+										<td class="product-quantity"><input type="number" value="@item.SoLuong" min="1" onchange="editCart(@item.MaSp,this.value)"></td>
+										<td class="product-total">@((item.SanPham?.Gia * item.SoLuong)?.ToString("C0", new System.Globalization.CultureInfo("vi-VN")))</td>
+									</tr>
+								}
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="total-section">
+					<table class="total-table">
+						<thead class="total-table-head">
+							<tr class="table-total-row">
+								<th>Tổng Cộng</th>
+								<th>Giá</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="total-data">
+								<td><strong>Tạm Tính: </strong></td>
+								<td>@Model.Sum(item => item.SanPham?.Gia * item.SoLuong)?.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+							</tr>
+							<tr class="total-data">
+								<td><strong>Vận Chuyển: </strong></td>
+								<td>0 đ</td>
+							</tr>
+							<tr class="total-data">
+								<td><strong>Tổng Cộng: </strong></td>
+								<td>@Model.Sum(item => item.SanPham?.Gia * item.SoLuong)?.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="cart-buttons">
+						<a asp-controller="ThanhToan" asp-action="Index" class="boxed-btn black">Thanh Toán</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc giỏ hàng -->

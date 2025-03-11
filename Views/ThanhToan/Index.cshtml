@@ -1,0 +1,175 @@
+﻿
+<!-- end logo carousel -->@{
+	ViewData["Title"] = "Thanh toán";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var lstcart = ViewData["lstcart"] as List<GioHang>;
+	var userinfor = ViewData["userinfor"] as User;
+}
+<!-- payMoney css -->
+<link rel="stylesheet" href="././assets/css/payMoney.css">
+<!-- khu vực breadcrumb -->
+<div class="breadcrumb-section breadcrumb-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2 text-center">
+				<div class="breadcrumb-text">
+					<p>Tươi và Hữu cơ</p>
+					<h1>Thanh Toán Sản Phẩm</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- kết thúc khu vực breadcrumb -->
+<!-- khu vực thanh toán -->
+<form asp-controller="ThanhToan" asp-action="CheckOut"
+	  class="form-horizontal"
+	  data-ajax="true"
+	  data-ajax-begin="BlockUI()"
+	  data-ajax-failure="UnBlockUI()"
+	  data-ajax-method="POST"
+	  data-ajax-success="successAction"
+	  id="form-pay"
+	  method="post"
+	  novalidate="">
+	<div class="grid wide">
+		<div class="row">
+			<div class="col l-8 m-12 c-12">
+
+				<div class="Delivery-info">
+					<div class="row">
+						<div class="col l-6 m-12 c-12">
+							<h3 class="header-Delivery-info">Thông tin nhận hàng</h3>
+							<div class="fieldset">
+								<div class="field">
+									<input type="email" id="email" name="email" placeholder="Email" value="@userinfor?.Email" required>
+								</div>
+								<div class="field">
+									<input type="text" id="name" name="name" placeholder="Họ và tên" value="@userinfor?.HoTen" required>
+								</div>
+								<div class="field">
+									<input type="text" id="phone" name="phone" placeholder="Số điện thoại" value="@userinfor?.Sdt" required>
+								</div>
+								<div class="field">
+									<input type="text" id="address" name="address" placeholder="Địa chỉ" value="@userinfor?.DiaChi" required>
+								</div>
+
+								<div class="field">
+									<textarea id="note" placeholder="Ghi chú (tùy chọn)" name="note" rows="2" cols="50"></textarea>
+								</div>
+							</div>
+						</div>
+
+						<div class="col l-6 m-12 c-12">
+							<div class="content-obligatory">
+								<div>
+									<h3 class="transport-header">
+										Vận chuyển
+									</h3>
+
+									<div class="transport-fee disable">
+										<div class="transport-fee-text">
+											<span class="radio-icon">
+												<i class="fa-solid fa-circle-dot"></i>
+											</span>
+											Giao hàng tận nơi
+										</div>
+										<div class="transport-fee-price">
+											0 đ
+										</div>
+									</div>
+								</div>
+
+								<div>
+									<h3 class="transport-header">
+										Thanh toán
+									</h3>
+
+									<div class="transport-fee disable">
+										<div class="transport-fee-text">
+											<span class="radio-icon">
+												<i class="fa-solid fa-circle-dot"></i>
+											</span>
+											Thanh toán khi nhận hàng
+										</div>
+										<div class="transport-fee-price">
+											0 đ
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col l-4 m-12 c-12 product-content">
+				<h3 class="header-product">
+					Đơn hàng ( <span class="quantity">@lstcart?.Count</span> sản phẩm)
+				</h3>
+				<div class="product">
+					@foreach (var item in lstcart)
+					{
+						<div class="product-item">
+							<div class="product-item-img">
+								<img src="@item.SanPham.HinhAnh" alt="Product">
+								<div class="product-quantity">@item.SoLuong</div>
+								<span class="product-item-name">@item.SanPham.TenSp</span>
+							</div>
+							<div class="product-item-price">@item.SanPham.Gia.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</div>
+						</div>
+					}
+				</div>
+				<div class="Provisional">
+					<div class="Provisionall-product">
+						<span>Tạm tính</span>
+						<span class="Provisionall-price">@lstcart?.Sum(x => x.SanPham.Gia * x.SoLuong).ToString("C0", new System.Globalization.CultureInfo("vi-VN"))</span>
+					</div>
+					<div class="Provisional-shipping">
+						<span>Phí vận chuyển</span>
+						<span class="Provisional-shipping-transport-fee">0 đ</span>
+					</div>
+				</div>
+				<div class="total">
+					<div class="total-price">
+						<span>Tổng cộng</span>
+						<span class="total-price-money">@((lstcart?.Sum(x => x.SanPham.Gia * x.SoLuong) ?? 0).ToString("C0", new System.Globalization.CultureInfo("vi-VN")))</span>
+					</div>
+					<button type="submit" class="btn-submit">Đặt hàng</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+<!-- kết thúc khu vực thanh toán -->
+<!-- logo carousel -->
+<div class="logo-carousel-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="logo-carousel-inner">
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/1.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/2.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/3.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/4.png" alt="">
+					</div>
+					<div class="single-logo-item">
+						<img src="./assets/img/company-logos/5.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end logo carousel -->
+@section scripts{
+	<script src="~/AppJs/ThanhToan.js"></script>
+}

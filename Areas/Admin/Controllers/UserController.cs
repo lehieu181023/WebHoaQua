@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebHoaQua.Models;
 using Newtonsoft.Json;
+using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace WebHoaQua.Areas.Admin.Controllers
@@ -12,12 +14,12 @@ namespace WebHoaQua.Areas.Admin.Controllers
     {
         private readonly ShopContext db = new ShopContext();
         private const string KeyCache = "User";
-
+        [Authorize(Roles = "Admin")]
         public ActionResult Index()
         {
             return View();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<PartialViewResult> ListData()
         {
@@ -35,7 +37,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             }
             return PartialView(listData);
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Detail(int? id)
         {
             if (id == null)
@@ -49,13 +51,13 @@ namespace WebHoaQua.Areas.Admin.Controllers
             }
             return PartialView(objData);
         }
-
+        [Authorize(Roles = "Admin")]
         public PartialViewResult Create()
         {
 
             return PartialView();
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<JsonResult> Create([Bind("MaUs,HoTen,Email,Sdt,MatKhau,DiaChi,NgayDangKy,Role,TrangThai")] Models.User obj)
         {
@@ -63,6 +65,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    obj.MatKhau = new PasswordHelper().HashPassword(obj.MatKhau);
                     obj.TrangThai = (obj.TrangThai)? true : false;
                     db.User.Add(obj);
                     await db.SaveChangesAsync();
@@ -72,6 +75,18 @@ namespace WebHoaQua.Areas.Admin.Controllers
                     return Json(new { success = false, message = "Lỗi dữ liệu nhập" });
                 }
             }
+            catch (DbUpdateException ex)
+            {
+                if (ex.InnerException is SqlException sqlEx)
+                {
+                    if (sqlEx.Number == 2627 || sqlEx.Number == 2601) // Lỗi UNIQUE constraint
+                    {
+                        return Json(new { success = false, message = "Email hoặc Số điện thoại đã tồn tại!" });
+                    }
+                }
+
+                return Json(new { success = false, message = "Thêm mới thất bại, vui lòng thử lại!" });
+            }
             catch (Exception ex)
             {
                 return Json(new { success = false, message = "Thêm mới thất bại" });
@@ -79,7 +94,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             return Json(new { success = true, message = "Thêm mới thành công" });
         }
 
-        
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Edit(int? id)
         {
             if (id == null)
@@ -95,16 +110,17 @@ namespace WebHoaQua.Areas.Admin.Controllers
             return PartialView(obj);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
 
-        public async Task<JsonResult> EditPost([Bind("MaSp,TenSp,MoTa,Gia,SoLuongTon,HinhAnh,MaDm,TrangThai")] Models.User obj,int? MaSp)
+        public async Task<JsonResult> EditPost([Bind("MaUs,HoTen,Email,Sdt,DiaChi,NgayDangKy,Role,TrangThai")] Models.User obj, int? MaUs)
         {
-            if (MaSp == null)
+            if (MaUs == null)
             {
                 return Json(new { success = false, message = "Id không được để trống" });
             }
 
-            var objData = await db.User.FindAsync(MaSp);
+            var objData = await db.User.FindAsync(MaUs);
             if (objData == null)
             {
                 return Json(new { success = false, message = "Không thể lưu vì có người dùng khác đang sửa hoặc đã bị xóa" });
@@ -112,7 +128,11 @@ namespace WebHoaQua.Areas.Admin.Controllers
 
             try
             {
-
+                objData.HoTen = obj.HoTen;
+                objData.Email = obj.Email;
+                objData.Sdt = obj.Sdt;
+                objData.DiaChi = obj.DiaChi;
+                objData.Role = obj.Role;
                 objData.TrangThai = obj.TrangThai;
                 await db.SaveChangesAsync();
             }
@@ -137,7 +157,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             return Json(new { success = true, message = "Cập nhật thành công" });
         }
 
-
+        [Authorize(Roles = "Admin")]
         public JsonResult Delete(int? id)
         {
             User obj = null;
@@ -163,7 +183,7 @@ namespace WebHoaQua.Areas.Admin.Controllers
             return Json(new { success = true, message = "Bản ghi đã được xóa thành công" });
         }
 
-        
+        [Authorize(Roles = "Admin")]
         public async Task<JsonResult> Status(int? id)
         {
             if (id == null)
