@@ -74,8 +74,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 280,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -95,12 +99,11 @@
               "Title": "LienHeController.cs",
               "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\LienHeController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\LienHeController.cs",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\LienHeController.cs*",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\LienHeController.cs*",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\LienHeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\LienHeController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwCcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:22:16.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T09:22:16.208Z"
             },
             {
               "$type": "Document",
@@ -108,12 +111,11 @@
               "Title": "DonHangController.cs",
               "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DonHangController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DonHangController.cs",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DonHangController.cs*",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\DonHangController.cs*",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DonHangController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwBUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:22:06.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T09:22:06.388Z"
             },
             {
               "$type": "Document",
@@ -121,16 +123,11 @@
               "Title": "DashBoardController.cs",
               "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DashBoardController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashBoardController.cs",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DashBoardController.cs*",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashBoardController.cs*",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashBoardController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwBcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:21:58.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-03-11T09:21:58.075Z"
             },
             {
               "$type": "Document",
@@ -138,12 +135,11 @@
               "Title": "DanhMucSanPhamController.cs",
               "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs*",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs*",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DanhMucSanPhamController.cs",
               "ViewState": "AgIAALQAAAAAAAAAAAAIwKgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:26:33.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:26:33.778Z"
             },
             {
               "$type": "Document",
@@ -151,12 +147,11 @@
               "Title": "SanPhamController.cs",
               "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SanPhamController.cs",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\SanPhamController.cs*",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\SanPhamController.cs*",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\SanPhamController.cs",
               "ViewState": "AgIAAMMAAAAAAAAAAAAIwK8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:26:33.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:26:33.8Z"
             },
             {
               "$type": "Document",
@@ -164,12 +159,11 @@
               "Title": "ThongBaoController.cs",
               "DocumentMoniker": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\ThongBaoController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ThongBaoController.cs",
-              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\ThongBaoController.cs*",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\ThongBaoController.cs*",
+              "ToolTip": "D:\\ASP.NET Core\\WebHoaQua\\Areas\\Admin\\Controllers\\ThongBaoController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ThongBaoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T07:54:19.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T07:54:19.249Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAAF8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T09:18:18.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T09:18:18.772Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "Views\\Account\\login.cshtml",
               "ViewState": "AgIAACgAAAAAAAAAAAAQwD4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T08:59:04.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:59:04.421Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "Areas\\Admin\\Views\\ThongBao\\ThongBaoo.cshtml",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAAGEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T08:37:15.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:37:15.365Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAQwD8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:26:33.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:26:33.817Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "Controllers\\ThanhToanController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:26:33.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:26:33.835Z"
             },
             {
               "$type": "Document",
@@ -246,8 +235,7 @@
               "RelativeToolTip": "Controllers\\CuaHangController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:26:33.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:26:33.853Z"
             },
             {
               "$type": "Document",
@@ -259,8 +247,7 @@
               "RelativeToolTip": "Controllers\\LienHeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:26:33.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:26:33.873Z"
             },
             {
               "$type": "Document",
@@ -272,8 +259,7 @@
               "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T08:19:35.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:19:35.45Z"
             },
             {
               "$type": "Document",
@@ -285,8 +271,7 @@
               "RelativeToolTip": "wwwroot\\Admin\\js\\ThongBao.js",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-11T08:18:08.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:18:08.075Z"
             }
           ]
         }
